@@ -4,7 +4,8 @@
   "description": "Portfolio redone with angular",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "postinstall": "bower install"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/ceckenrode/angularPortfolio.git",
   "dependencies": {
+    "bower": "1.7.7",
     "express": "^4.13.4",
     "mongoose": "^4.4.8",
     "morgan": "^1.7.0"
